@@ -1,0 +1,3838 @@
+﻿<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Ví Điện Tử EWA - Ứng Dụng Thanh Toán Trực Tuyến</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="images/logo/ewa2.png">
+	<link rel="apple-touch-icon" href="images/icon.png">
+
+	<!-- Google font (font-family: 'Roboto', sans-serif; Poppins ; Satisfy) -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,600,600i,700,700i,800"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Cusom css -->
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!-- Modernizer js -->
+	<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+</head>
+
+<body>
+	<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+	<!-- Main wrapper -->
+	<div class="wrapper" id="wrapper">
+		<!-- Header -->
+		<header id="wn__header" class="header__area header__absolute sticky__header">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-6 col-lg-2">
+						<div class="logo">
+							<a href="index.html">
+								<img src="images/logo/ewa2.png" alt="logo images">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-8 d-none d-lg-block">
+						<nav class="mainmenu__nav">
+							<ul class="meninmenu d-flex justify-content-start">
+								<li class="drop with--one--item"><a href="index.html">Trang Chủ</a></li>
+
+								<li class="drop"><a href="#">Dịch Vụ</a>
+									<div class="megamenu dropdown">
+										<ul class="item item01">
+											<li class="title">Tính năng nổi bật</li>
+											<li><a href="TraCuuHoaDon.html">Thanh Toán Tiền Điện</a></li>
+											<li><a href="ChuyenTien.html">Chuyển tiền</a></li>
+											<li><a href="MuaVeXemPhim.html">Mua Vé Xem Phim</a></li>
+											<li><a href="MuaTheDienThoai.html">Mua Thẻ Di Động</a></li>
+											<li><a href="NapTheDienThoai.html">Nạp Tiền Cho Di Động</a></li>
+											<li><a href="MuaTheGame.html">Mua Thẻ Game</a></li>
+											<li><a href="QuetMaQR.html">Quét Mã QR</a></li>
+										</ul>
+
+									</div>
+								</li>
+								<li class="drop"><a href="blog.html">Tin Tức</a>
+
+								</li>
+
+
+								<li class="drop"><a href="about.html">Giới Thiệu</a>
+
+								</li>
+
+								<li><a href="contact.html">Liên Hệ</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-md-6 col-sm-6 col-6 col-lg-2">
+						<ul class="header__sidebar__right d-flex justify-content-end align-items-center">
+							<li class="shop_search"><a class="search__active" href="#"></a></li>
+							<!-- Start Shopping Cart -->
+
+							<!-- End Shopping Cart -->
+
+							<li class="setting__bar__icon"><a class="setting__active" href="#"></a>
+								<div class="searchbar__content setting__block">
+									<div class="content-inner">
+										<div class="switcher-currency">
+											<strong class="label switcher-label">
+												<span>Thông Tin Tài Khoản</span>
+											</strong>
+											<div class="switcher-options">
+												<div class="switcher-currency-trigger">
+													<div class="setting__menu">
+														<span><a href="#">Thông Tin Tài Khoản</a></span>
+														<span><a href="#">Đăng Nhập</a></span>
+														<span><a href="#">Đăng Kí</a></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Start Mobile Menu -->
+				<div class="row d-none">
+					<div class="col-lg-12 d-none">
+						<nav class="mobilemenu__nav">
+							<ul class="meninmenu">
+								<li><a href="index.html">Trang Chủ</a></li>
+
+								<li><a>Dịch Vụ</a>
+
+								</li>
+
+								<li><a href="blog.html">Tin Tức</a>
+
+								</li>
+								<li><a href="about.html">Giới Thiệu</a>
+
+								</li>
+								<li><a href="contact.html">Liên Hệ</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<!-- End Mobile Menu -->
+				<div class="mobile-menu d-block d-lg-none">
+				</div>
+				<!-- Mobile Menu -->
+		</header>
+		<div class="brown--color box-search-content search_active block-bg close__top">
+			<form id="search_mini_form" class="minisearch" action="#">
+				<div class="field__search">
+					<input type="text" placeholder="Tìm Kiếm Dịch Vụ...">
+					<div class="action">
+						<a href="#"><i class="zmdi zmdi-search"></i></a>
+					</div>
+				</div>
+			</form>
+			<div class="close__wrap">
+				<span>Đóng</span>
+			</div>
+		</div>
+		<!-- End Search Popup -->
+		<!-- Start Bradcaump area -->
+		<div class="ht__bradcaump__area bg-image--6 mb-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="bradcaump__inner text-center">
+							<h2 class="bradcaump-title">Mua Vé Xem Phim</h2>
+							<!-- <nav class="bradcaump-content">
+								<a class="breadcrumb_item" href="index.html">Home</a>
+								<span class="brd-separetor">/</span>
+								<span class="breadcrumb_item active">Shop Grid</span>
+							</nav> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Bradcaump area -->
+		<!-- Start Shop Page -->
+		<div class="page-shop-sidebar left--sidebar bg--white section-padding--lg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-12 order-2 order-lg-1 md-mt-40 sm-mt-40">
+						<div class="shop__sidebar">
+							<aside class="wedget__categories poroduct--cat">
+								<h3 class="wedget__title">Thể Loại Phim</h3>
+								<ul>
+									<li><a href="#">Việt Nam <span>(10)</span></a></li>
+									<li><a href="#">Hành Động <span>(3)</span></a></li>
+									<li><a href="#">Phiêu Lưu <span>(4)</span></a></li>
+									<li><a href="#">Bí Ẩn <span>(6)</span></a></li>
+									<li><a href="#">Hài <span>(7)</span></a></li>
+									<li><a href="#">Kinh Dị <span>(8)</span></a></li>
+									<li><a href="#">Giật Gân <span>(9)</span></a></li>
+									<li><a href="#">Kì Ảo <span>(13)</span></a></li>
+									<li><a href="#">Chính Kịch <span>(20)</span></a></li>
+									<li><a href="#">Lãng Mạng <span>(22)</span></a></li>
+									<li><a href="#">Hoạt Hình <span>(13)</span></a></li>
+									<li><a href="#">Tài Liệu <span>(17)</span></a></li>
+									<li><a href="#">Ca Nhạc <span>(20)</span></a></li>
+									<li><a href="#">Khoa Học <span>(34)</span></a></li>
+									<li><a href="#">Gia Đình <span>(60)</span></a></li>
+									<li><a href="#">Việt Nam <span>(10)</span></a></li>
+								</ul>
+							</aside>
+						</div>
+					</div>
+					<div class="col-lg-9 col-12 order-1 order-lg-2">
+						<div class="row">
+							<div class="col-lg-12">
+								<div
+									class="shop__list__wrapper d-flex flex-wrap flex-md-nowrap justify-content-between">
+									<div class="shop__list nav justify-content-center" role="tablist">
+										<a class="nav-item nav-link active" data-toggle="tab" href="#nav-grid"
+											role="tab"><i class="fa fa-th"></i></a>
+										<a class="nav-item nav-link" data-toggle="tab" href="#nav-list" role="tab"><i
+												class="fa fa-list"></i></a>
+									</div>
+									<p>Hiển Thị 1-12 Trong 40 Phim</p>
+									<div class="orderby__wrapper">
+										<span>Bộ Lọc</span>
+										<select class="shot__byselect">
+											<option>Mặc Định</option>
+											<option>Phim Hot</option>
+											<option>Triển Vọng</option>
+											<option>Việt Nam</option>
+											<option>Trên 18+</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab__container">
+							<div class="shop-grid tab-pane fade show active" id="nav-grid" role="tabpanel">
+								<div class="row">
+									<!-- Start Single Product -->
+									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+										<div class="product__thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/onepiece.jpg" alt="product image"></a>
+											<!-- <a class="second__img animation1" href="single-product.html"><img
+													src="images/books/2.jpg" alt="product image"></a> -->
+											<div class="hot__box">
+												<span class="hot-label">MỚI</span>
+											</div>
+										</div>
+										<div class="product__content content--center">
+											<h4><a href="single-product.html"><strong>ONE PIECE: LỄ HỘI HẢI TẶC</strong></a></h4>
+											<!-- <ul class=" column">
+												<li><strong>Thể Loại:</strong> Hoạt Hình, Phiêu Lưu</li>												
+											</ul> -->
+											<a href="#productmodal" class="btn  btn-lg active " role="button"
+												aria-pressed="true" data-toggle="modal" title="Quick View">Mua Vé</a>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+										<div class="product__thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/frozen.jpg" alt="product image"></a>
+											<!-- <a class="second__img animation1" href="single-product.html"><img
+																						src="images/books/2.jpg" alt="product image"></a> -->
+											<div class="hot__box">
+												<span class="hot-label">MỚI</span>
+											</div>
+										</div>
+										<div class="product__content content--center ">
+											<h4><a href="single-product.html"><strong>NỮ HOÀNG BĂNG GIÁ 2</strong></a>
+											</h4>
+											<!-- <ul class=" column">
+																					<li><strong>Thể Loại:</strong> Hoạt Hình, Phiêu Lưu</li>												
+																				</ul> -->
+											<a href="#productmodal" class="btn  btn-lg active " role="button"
+												aria-pressed="true" data-toggle="modal" title="Quick View">Mua Vé</a>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+										<div class="product__thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/rambo.jpg" alt="product image"></a>
+										
+											<div class="hot__box">
+												<span class="hot-label">MỚI</span>
+											</div>
+										</div>
+										<div class="product__content content--center">
+											<h4><a href="single-product.html"><strong>RAMBO: HỒI KẾT ĐẪM
+														MÁU</strong></a></h4>
+											
+											<a href="#productmodal" class="btn  btn-lg active " role="button"
+												aria-pressed="true" data-toggle="modal" title="Quick View">Mua Vé</a>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+										<div class="product__thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/grudge.jpg" alt="product image"></a>
+											
+											<div class="hot__box">
+												<span class="hot-label">MỚI</span>
+											</div>
+										</div>
+										<div class="product__content content--center">
+											<h4><a href="single-product.html"><strong>LỜI NGUYỀN</strong></a></h4>
+											
+											<a href="#productmodal" class="btn  btn-lg active " role="button"
+												aria-pressed="true" data-toggle="modal" title="Quick View">Mua Vé</a>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+										<div class="product__thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/cats.jpg" alt="product image"></a>
+											
+											<div class="hot__box">
+												<span class="hot-label">MỚI</span>
+											</div>
+										</div>
+										<div class="product__content content--center">
+											<h4><a href="single-product.html"><strong>NHỮNG CHÚ MÈO</strong></a></h4>
+											
+											<a href="#productmodal" class="btn  btn-lg active " role="button"
+												aria-pressed="true" data-toggle="modal" title="Quick View">Mua Vé</a>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+										<div class="product__thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/spies.jpg" alt="product image"></a>
+											
+											<div class="hot__box">
+												<span class="hot-label">MỚI</span>
+											</div>
+										</div>
+										<div class="product__content content--center">
+											<h4><a href="single-product.html"><strong>ĐIỆP VIÊN ẨN DANH</strong></a>
+											</h4>										
+											<a href="#productmodal" class="btn  btn-lg active " role="button"
+												aria-pressed="true" data-toggle="modal" title="Quick View">Mua Vé</a>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+										<div class="product__thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/sacdep.jpg" alt="product image"></a>										
+											<div class="hot__box">
+												<span class="hot-label">MỚI</span>
+											</div>
+										</div>
+										<div class="product__content content--center">
+											<h4><a href="single-product.html"><strong>SẮC ĐẸP DỐI TRÁ</strong></a></h4>										
+											<a href="#productmodal" class="btn  btn-lg active " role="button"
+												aria-pressed="true" data-toggle="modal" title="Quick View">Mua Vé</a>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+										<div class="product__thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/redshoes.jpg" alt="product image"></a>
+											<div class="hot__box">
+												<span class="hot-label">MỚI</span>
+											</div>
+										</div>
+										<div class="product__content content--center">
+											<h4><a href="single-product.html"><strong>HÀI ĐỎ VÀ 7 CHÚ LÙN</strong></a>
+											</h4>
+										
+											<a href="#productmodal" class="btn  btn-lg active " role="button"
+												aria-pressed="true" data-toggle="modal" title="Quick View">Mua Vé</a>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+										<div class="product__thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/payoff.jpg" alt="product image"></a>
+											<div class="hot__box">
+												<span class="hot-label">MỚI</span>
+											</div>
+										</div>
+										<div class="product__content content--center">
+											<h4><a href="single-product.html"><strong>QUÁI VẬT NGUYÊN SINH</strong></a>
+											</h4>										
+											<a href="#productmodal" class="btn  btn-lg active " role="button"
+												aria-pressed="true" data-toggle="modal" title="Quick View">Mua Vé</a>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+										<div class="product__thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/chongcu.jpg" alt="product image"></a>
+										
+											<div class="hot__box">
+												<span class="hot-label">MỚI</span>
+											</div>
+										</div>
+										<div class="product__content content--center">
+											<h4><a href="single-product.html"><strong>CHỒNG CŨ, TÌNH MỚI</strong></a>
+											</h4>
+											
+											<a href="#productmodal" class="btn  btn-lg active " role="button"
+												aria-pressed="true" data-toggle="modal" title="Quick View">Mua Vé</a>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+										<div class="product__thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/tmonbs.jpg" alt="product image"></a>
+											
+											<div class="hot__box">
+												<span class="hot-label">MỚI</span>
+											</div>
+										</div>
+										<div class="product__content content--center">
+											<h4><a href="single-product.html"><strong>VỤ ÁN THẾ KỶ</strong></a></h4>
+											
+											<a href="#productmodal" class="btn  btn-lg active " role="button"
+												aria-pressed="true" data-toggle="modal" title="Quick View">Mua Vé</a>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+										<div class="product__thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/giaicuu.jpg" alt="product image"></a>
+										
+											<div class="hot__box">
+												<span class="hot-label">MỚI</span>
+											</div>
+										</div>
+										<div class="product__content content--center">
+											<h4><a href="single-product.html"><strong>CUỘC GIẢI CỨU HANG THAM
+														LUANG</strong></a></h4>
+											
+											<a href="#productmodal" class="btn  btn-lg active " role="button"
+												aria-pressed="true" data-toggle="modal" title="Quick View">Mua Vé</a>
+										</div>
+									</div>
+									<!-- End Single Product -->
+								</div>
+								<ul class="wn__pagination">
+									<li class="active"><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#"><i class="zmdi zmdi-chevron-right"></i></a></li>
+								</ul>
+							</div>
+							<div class="shop-grid tab-pane fade" id="nav-list" role="tabpanel">
+								<div class="list__view__wrapper">
+									<!-- Start Single Product -->
+									<div class="list__view">
+										<div class="thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/onepiece.jpg" alt="product images"></a>
+
+										</div>
+										<div class="content">
+											<h2><a href="single-product.html">ONE PIECE: LỄ HỘI HẢI TẶC</a></h2>
+											<ul class="rating d-flex">
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+											</ul>
+											<ul class="prize__box ">
+												<li>Giá vé: 79.000Đ</li>
+												<li class="old__prize">118.000Đ</li>
+											</ul>
+											<ul>
+												<li><b>Đạo Diễn:</b> Takashi Otsuka</li>
+												<li><b>Thể Loại:</b> Hoạt Hình, Phiêu Lưu</li>
+												<li><b>Khởi Chiếu:</b> 03/01/2020</li>
+												<li><b>Thời Lượng:</b> 101 Phút</li>
+											</ul>
+											<ul class="cart__action d-flex mt--20 ">
+												<a href="#productmodal" class="btn  btn-lg active  " role="button"
+													aria-pressed="true" data-toggle="modal" title="Quick View">Mua
+													Vé</a>
+
+											</ul>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="list__view mt--40">
+										<div class="thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/frozen.jpg" alt="product images"></a>
+
+										</div>
+										<div class="content">
+											<h2><a href="single-product.html">NỮ HOÀNG BĂNG GIÁ 2</a></h2>
+											<ul class="rating d-flex">
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+											</ul>
+											<ul class="prize__box ">
+												<li>Giá vé: 79.000Đ</li>
+												<li class="old__prize">118.000Đ</li>
+											</ul>
+											<ul>
+												<li><b>Đạo Diễn:</b> Chris Buck, Jennifer Lee</li>
+												<li><b>Thể Loại:</b> Hài, Hoạt Hình, Phiêu Lưu</li>
+												<li><b>Khởi Chiếu:</b> 22/11/2019</li>
+												<li><b>Thời Lượng:</b> 103 Phút</li>
+
+											</ul>
+											<ul class="cart__action d-flex mt--20 ">
+												<a href="#productmodal" class="btn  btn-lg active  " role="button"
+													aria-pressed="true" data-toggle="modal" title="Quick View">Mua
+													Vé</a>
+
+											</ul>
+
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="list__view mt--40">
+										<div class="thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/rambo.jpg" alt="product images"></a>
+										</div>
+										<div class="content">
+											<h2><a href="single-product.html">RAMBO: HỒI KẾT ĐẪM MÁU</a></h2>
+											<ul class="rating d-flex">
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+											</ul>
+											<ul class="prize__box ">
+												<li>Giá vé: 79.000Đ</li>
+												<li class="old__prize">118.000Đ</li>
+											</ul>
+											<ul>
+												<li><b>Đạo Diễn:</b> Adrian Grunberg</li>
+												<li><b>Thể Loại:</b> Hành Động, Phiêu Lưu</li>
+												<li><b>Khởi Chiếu:</b> 24/12/2019</li>
+												<li><b>Thời Lượng:</b> 96 Phút</li>
+
+											</ul>
+											<ul class="cart__action d-flex mt--20 ">
+												<a href="#productmodal" class="btn  btn-lg active  " role="button"
+													aria-pressed="true" data-toggle="modal" title="Quick View">Mua
+													Vé</a>
+											</ul>
+
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="list__view mt--40">
+										<div class="thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/sacdep.jpg" alt="product images"></a>
+											
+										</div>
+										<div class="content">
+											<h2><a href="single-product.html">SẮC ĐẸP DỐI TRÁ</a></h2>
+											<ul class="rating d-flex">
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+											</ul>
+											<ul class="prize__box ">
+												<li>Giá vé: 79.000Đ</li>
+												<li class="old__prize">118.000Đ</li>
+											</ul>
+											<ul>
+												<li><b>Đạo Diễn:</b> Kay Nguyễn</li>
+												<li><b>Thể Loại:</b> Hài, Hành Động</li>
+												<li><b>Khởi Chiếu:</b> 21/02/2020</li>
+												<li><b>Thời Lượng:</b> 118 Phút</li>
+											
+											</ul>
+											<ul class="cart__action d-flex mt--20 ">
+												<a href="#productmodal" class="btn  btn-lg active  " role="button" aria-pressed="true" data-toggle="modal"
+													title="Quick View">Mua
+													Vé</a>
+											</ul>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="list__view mt--40">
+										<div class="thumb">
+											<a class="first__img" href="single-product.html"><img
+													src="images/books/ccee.jpg" alt="product images"></a>
+											
+										</div>
+										<div class="content">
+											<h2><a href="single-product.html">CHỊ CHỊ EM EM</a></h2>
+											<ul class="rating d-flex">
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li class="on"><i class="fa fa-star-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+											</ul>
+											<ul class="prize__box ">
+												<li>Giá vé: 79.000Đ</li>
+												<li class="old__prize">118.000Đ</li>
+											</ul>
+											<ul>
+												<li><b>Đạo Diễn:</b> Kathy Uyên</li>
+												<li><b>Thể Loại:</b> Hồi Hộp, Tâm Lý, Tình Cảm</li>
+												<li><b>Khởi Chiếu:</b> 20/12/2019</li>
+												<li><b>Thời Lượng:</b> 104 Phút</li>
+											
+											</ul>
+											<ul class="cart__action d-flex mt--20 ">
+												<a href="#productmodal" class="btn  btn-lg active  " role="button" aria-pressed="true" data-toggle="modal"
+													title="Quick View">Mua
+													Vé</a>
+											</ul>
+									</div>
+									<!-- End Single Product -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Shop Page -->
+		<!-- Footer Area -->
+		<footer id="wn__footer" class="footer__area bg__cat--8 brown--color">
+			<div class="footer-static-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="footer__widget footer__menu">
+								<div class="ft__logo">
+									<a href="index.html">
+										<img src="images/logo/ewa2.png" alt="logo">
+									</a>
+									<p>Là đối tác chiến lược của các ngân hàng lớn như: Vietcombank, VietinBank, AgriBank, BIDV,
+										ACB, TPBank, VPBank, EximBank, OCB, VIB, Shinhan Bank, SCB, SacomBank, VRB, BAOVIET Bank
+										và các tổ chức thẻ Visa/Master/JCB.</p>
+								</div>
+								<div class="footer__content">
+									<ul class="social__net social__net--2 d-flex justify-content-center">
+										<li><a href="#"><i class="bi bi-facebook"></i></a></li>
+										<li><a href="#"><i class="bi bi-google"></i></a></li>
+										<li><a href="#"><i class="bi bi-twitter"></i></a></li>
+										<li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+										<li><a href="#"><i class="bi bi-youtube"></i></a></li>
+									</ul>
+									<ul class="mainmenu d-flex justify-content-center">
+										<li><a href="index.html">Tính Năng</a></li>
+										<li><a href="index.html">Hỏi Đáp</a></li>
+										<li><a href="index.html">Hướng Dẫn</a></li>
+										<li><a href="index.html">Tuyển Dụng</a></li>
+										<li><a href="index.html">Tin Tức</a></li>
+										<li><a href="index.html">Liên Hệ</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright__wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="copyright">
+								<div class="copy__right__inner text-left">
+									<p>Copyright <i class="fa fa-copyright"></i> <a
+											href="https://freethemescloud.com/">SE215.K12.PMCL.</a> All Rights Reserved</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="payment text-right">
+								<img src="images/icons/payment.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- //Footer Area -->
+		
+
+		<!-- QUICKVIEW PRODUCT -->
+		<div id="quickview-wrapper">
+			<!-- Modal -->
+			<div class="modal fade" id="productmodal" tabindex="-1" role="dialog" >
+				<div class="modal-dialog modal__container" role="document">
+					<div class="modal-content">
+						<div class="modal-header modal__header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+									aria-hidden="true">&times;</span></button>
+						</div>
+						<div id="cboxContent">
+							<div id="cboxLoadedContent" style="width: 900; overflow: auto; height: 600px;">
+								<div class="product-view quick-booking cgv-schedule-popup">
+									<div class="product-collateral toggle-content tabs tabs-cgv-movie-view-date">
+										<ul class="toggle-tabs">
+											<li class="current">
+												<div class="day" onclick="getSelectDay(19022000, '20200101');">
+													<span>01</span><em>Wed</em><strong>01</strong></div>
+											</li>
+											<li>
+												<div class="day" onclick="getSelectDay(19022000, '20200102');">
+													<span>01</span><em>Thu</em><strong>02</strong></div>
+											</li>
+											<li>
+												<div class="day" onclick="getSelectDay(19022000, '20200103');">
+													<span>01</span><em>Fri</em><strong>03</strong></div>
+											</li>
+											<li>
+												<div class="day" onclick="getSelectDay(19022000, '20200104');">
+													<span>01</span><em>Sat</em><strong>04</strong></div>
+											</li>
+											<li>
+												<div class="day" onclick="getSelectDay(19022000, '20200105');">
+													<span>01</span><em>Sun</em><strong>05</strong></div>
+											</li>
+											<li>
+												<div class="day" onclick="getSelectDay(19022000, '20200106');">
+													<span>01</span><em>Mon</em><strong>06</strong></div>
+											</li>
+											<li>
+												<div class="day" onclick="getSelectDay(19022000, '20200107');">
+													<span>01</span><em>Tue</em><strong>07</strong></div>
+											</li>
+											<li>
+												<div class="day" onclick="getSelectDay(19022000, '20200108');">
+													<span>01</span><em>Wed</em><strong>08</strong></div>
+											</li>
+											<li>
+												<div class="day" onclick="getSelectDay(19022000, '20200109');">
+													<span>01</span><em>Thu</em><strong>09</strong></div>
+											</li>
+											<li>
+												<div class="day" onclick="getSelectDay(19022000, '20200110');">
+													<span>01</span><em>Fri</em><strong>10</strong></div>
+											</li>
+											<li>
+												<div class="day" onclick="getSelectDay(19022000, '20200111');">
+													<span>01</span><em>Sat</em><strong>11</strong></div>
+											</li>
+											<li>
+												<div class="day" onclick="getSelectDay(19022000, '20200112');">
+													<span>01</span><em>Sun</em><strong>12</strong></div>
+											</li>
+											<li>
+												<div class="day" onclick="getSelectDay(19022000, '20200113');">
+													<span>01</span><em>Mon</em><strong>13</strong></div>
+											</li>
+											<li class="last">
+												<div class="day" onclick="getSelectDay(19022000, '20200114');">
+													<span>01</span><em>Tue</em><strong>14</strong></div>
+											</li>
+										</ul>
+										<dl id="collateral-tabs" class="collateral-tabs">
+											<dt class="tab current">
+												<div class="day" onclick="getSelectDay(19022000, '20200101');">
+													<span>01</span><em>Wed</em><strong>01</strong></div>
+											</dt>
+											<dd class="tab-container current">
+												<div class="tab-content showtimes">
+													<div class="product-collateral toggle-content tabs tabs-cgv-movie-cites row">
+														<ul class="toggle-tabs ">
+															<li class="current ">
+																<span>Hồ Chí Minh</span>
+															</li>
+															<li>
+																<span>Hà Nội</span>
+															</li>
+															<li>
+																<span>Đà Nẵng</span>
+															</li>
+															<li>
+																<span>Cần Thơ</span>
+															</li>
+															<li>
+																<span>Đồng Nai</span>
+															</li>
+															<li>
+																<span>Hải Phòng</span>
+															</li>
+															<li>
+																<span>Quảng Ninh</span>
+															</li>
+															<li>
+																<span>Bà Rịa-Vũng Tàu</span>
+															</li>
+															<li>
+																<span>Bình Định</span>
+															</li>
+															<li>
+																<span>Bình Dương</span>
+															</li>
+															<li>
+																<span>Đắk Lắk</span>
+															</li>
+															<li>
+																<span>Trà Vinh</span>
+															</li>
+															<li>
+																<span>Vĩnh Long</span>
+															</li>
+															<li>
+																<span>Kiên Giang</span>
+															</li>
+															<li>
+																<span>Hậu Giang</span>
+															</li>
+															<li>
+																<span>Hà Tĩnh</span>
+															</li>
+															<li>
+																<span>Phú Yên</span>
+															</li>
+															<li>
+																<span>Đồng Tháp</span>
+															</li>
+															<li>
+																<span>Khánh Hòa</span>
+															</li>
+															<li>
+																<span>Kon Tum</span>
+															</li>
+															<li>
+																<span>Lạng Sơn</span>
+															</li>
+															<li>
+																<span>Nghệ An</span>
+															</li>
+															<li>
+																<span>Sóc Trăng</span>
+															</li>
+															<li>
+																<span>Sơn La</span>
+															</li>
+															<li>
+																<span>Tây Ninh</span>
+															</li>
+															<li>
+																<span>Thái Nguyên</span>
+															</li>
+															<li class="last">
+																<span>Tiền Giang</span>
+															</li>
+														</ul>
+														<dl id="collateral-tabs" class="collateral-tabs">
+															<dt class="tab current">
+																<span>Hồ Chí Minh</span>
+															</dt>
+															<dd class="tab-container current">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																		<li class="last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Hùng Vương Plaza</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>19:30 PM</span><br>
+																								<span>68 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>21:45 PM</span><br>
+																								<span>89 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>										
+																				</div>
+																
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Trường Sơn (CGV CT Plaza)</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/006/seq/4298576/dy/20200101">
+																								<span>20:30 PM</span><br>
+																								<span>121 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																		
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Pandora City</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:30 PM</span><br>
+																								<span>129 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Aeon Tân Phú</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>16:55 PM</span><br>
+																								<span>93 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>19:05 PM</span><br>
+																								<span>147 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:20 PM</span><br>
+																								<span>89 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>21:10 PM</span><br>
+																								<span>158 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Thảo Điền Pearl</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>19:00 PM</span><br>
+																								<span>95 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:10 PM</span><br>
+																								<span>88 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Liberty Citypoint</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:30 PM</span><br>
+																								<span>30 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Thủ Đức</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:30 PM</span><br>
+																								<span>148 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vivo City</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:45 PM</span><br>
+																								<span>95 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:50 PM</span><br>
+																								<span>155 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Pearl Plaza</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>19:00 PM</span><br>
+																								<span>84 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Gò Vấp</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:20 PM</span><br>
+																								<span>78 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Aeon Bình Tân</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:40 PM</span><br>
+																								<span>137 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:40 PM</span><br>
+																								<span>156 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Đồng Khởi</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>17:25 PM</span><br>
+																								<span>18 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>21:30 PM</span><br>
+																								<span>37 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Saigonres Nguyễn Xí</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:30 PM</span><br>
+																								<span>93 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Sư Vạn Hạnh</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:50 PM</span><br>
+																								<span>142 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV IMC Trần Quang Khải</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:00 PM</span><br>
+																								<span>81 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:00 PM</span><br>
+																								<span>87 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Center Landmark 81</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:00 PM</span><br>
+																								<span>87 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>19:30 PM</span><br>
+																								<span>154 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>21:50 PM</span><br>
+																								<span>149 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Satra Củ Chi</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:00 PM</span><br>
+																								<span>86 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Giga Mall Thủ Đức</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>17:15 PM</span><br>
+																								<span>54 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																		<dt class="tab last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Hùng Vương Plaza</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>17:25 PM</span><br>
+																								<span>85 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Pandora City</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>17:50 PM</span><br>
+																								<span>91 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:00 PM</span><br>
+																								<span>99 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Thủ Đức</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:00 PM</span><br>
+																								<span>95 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:40 PM</span><br>
+																								<span>115 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>19:40 PM</span><br>
+																								<span>154 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Sư Vạn Hạnh</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:30 PM</span><br>
+																								<span>159 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>19:40 PM</span><br>
+																								<span>119 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV IMC Trần Quang Khải</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>19:10 PM</span><br>
+																								<span>41 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Satra Củ Chi</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:00 PM</span><br>
+																								<span>87 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Giga Mall Thủ Đức</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:10 PM</span><br>
+																								<span>128 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Hà Nội</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																		<li class="last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Center Bà Triệu</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>19:20 PM</span><br>
+																								<span>80 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Mipec Tower</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:15 PM</span><br>
+																								<span>115 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:10 PM</span><br>
+																								<span>64 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>21:50 PM</span><br>
+																								<span>138 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Aeon Long Biên</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>19:05 PM</span><br>
+																								<span>111 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>20:05 PM</span><br>
+																								<span>93 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>21:50 PM</span><br>
+																								<span>235 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>23:10 PM</span><br>
+																								<span>296 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Nguyễn Chí Thanh</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>17:20 PM</span><br>
+																								<span>41 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>18:55 PM</span><br>
+																								<span>81 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>23:45 PM</span><br>
+																								<span>71 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Indochina Plaza Hà Nội</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>17:00 PM</span><br>
+																								<span>27 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Rice City</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>17:15 PM</span><br>
+																								<span>67 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>22:35 PM</span><br>
+																								<span>88 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Artemis Hà Nội</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>19:00 PM</span><br>
+																								<span>161 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>21:05 PM</span><br>
+																								<span>167 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="ThanhToanVeXemPhim.html">
+																								<span>23:15 PM</span><br>
+																								<span>176 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Hà Nội Centerpoint</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/046/seq/4330254/dy/20200101">
+																								<span>22:40 PM</span><br>
+																								<span>183 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Tràng Tiền Plaza</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/048/seq/4271941/dy/20200101">
+																								<span>19:00 PM</span><br>
+																								<span>24 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/048/seq/4329261/dy/20200101">
+																								<span>23:10 PM</span><br>
+																								<span>30 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																					<div class="cinema lamour">
+																						<h4>Rạp Lamour</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/048/seq/4331114/dy/20200101">
+																								<span>18:35 PM</span><br>
+																								<span>12 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Trương Định Plaza</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/053/seq/4308802/dy/20200101">
+																								<span>17:35 PM</span><br>
+																								<span>139 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/053/seq/4308796/dy/20200101">
+																								<span>21:05 PM</span><br>
+																								<span>118 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/053/seq/4329397/dy/20200101">
+																								<span>23:05 PM</span><br>
+																								<span>120 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Royal City</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/054/seq/4270904/dy/20200101">
+																								<span>18:10 PM</span><br>
+																								<span>101 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/054/seq/4299835/dy/20200101">
+																								<span>20:15 PM</span><br>
+																								<span>107 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Times City </h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/055/seq/4329289/dy/20200101">
+																								<span>17:00 PM</span><br>
+																								<span>175 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/055/seq/4270842/dy/20200101">
+																								<span>18:20 PM</span><br>
+																								<span>103 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/055/seq/4329280/dy/20200101">
+																								<span>20:00 PM</span><br>
+																								<span>306 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/055/seq/4300653/dy/20200101">
+																								<span>20:25 PM</span><br>
+																								<span>112 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/055/seq/4331121/dy/20200101">
+																								<span>22:05 PM</span><br>
+																								<span>309 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Machinco</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/060/seq/4328508/dy/20200101">
+																								<span>18:25 PM</span><br>
+																								<span>76 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/060/seq/4328509/dy/20200101">
+																								<span>21:00 PM</span><br>
+																								<span>86 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/060/seq/4328511/dy/20200101">
+																								<span>22:15 PM</span><br>
+																								<span>86 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Sun Grand Lương Yên </h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/064/seq/4330908/dy/20200101">
+																								<span>22:25 PM</span><br>
+																								<span>85 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Metropolis Liễu Giai </h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/070/seq/4304662/dy/20200101">
+																								<span>18:45 PM</span><br>
+																								<span>104 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Bắc Từ Liêm </h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/075/seq/4316208/dy/20200101">
+																								<span>18:10 PM</span><br>
+																								<span>47 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/075/seq/4316209/dy/20200101">
+																								<span>20:10 PM</span><br>
+																								<span>34 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/075/seq/4327875/dy/20200101">
+																								<span>22:10 PM</span><br>
+																								<span>52 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Xuân Diệu</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/080/seq/4303483/dy/20200101">
+																								<span>17:20 PM</span><br>
+																								<span>82 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/080/seq/4303484/dy/20200101">
+																								<span>19:20 PM</span><br>
+																								<span>81 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Sky Lake</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/082/seq/4308789/dy/20200101">
+																								<span>19:45 PM</span><br>
+																								<span>111 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Trần Duy Hưng</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/083/seq/4303771/dy/20200101">
+																								<span>19:00 PM</span><br>
+																								<span>132 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/083/seq/4267370/dy/20200101">
+																								<span>21:35 PM</span><br>
+																								<span>76 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Aeon Hà Đông</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/090/seq/4327877/dy/20200101">
+																								<span>20:25 PM</span><br>
+																								<span>118 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/090/seq/4265324/dy/20200101">
+																								<span>23:20 PM</span><br>
+																								<span>127 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																		<dt class="tab last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Long Biên </h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/056/seq/4285539/dy/20200101">
+																								<span>17:50 PM</span><br>
+																								<span>227 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Đà Nẵng</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vĩnh Trung Plaza</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/005/seq/4287490/dy/20200101">
+																								<span>17:00 PM</span><br>
+																								<span>121 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/005/seq/4287512/dy/20200101">
+																								<span>18:00 PM</span><br>
+																								<span>169 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/005/seq/4300446/dy/20200101">
+																								<span>19:00 PM</span><br>
+																								<span>128 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Đà Nẵng</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/025/seq/4273744/dy/20200101">
+																								<span>18:00 PM</span><br>
+																								<span>50 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Cần Thơ</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																		<li class="last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Sense City</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/013/seq/4298152/dy/20200101">
+																								<span>18:00 PM</span><br>
+																								<span>86 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/013/seq/4290557/dy/20200101">
+																								<span>20:10 PM</span><br>
+																								<span>86 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/013/seq/4330225/dy/20200101">
+																								<span>20:45 PM</span><br>
+																								<span>101 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/013/seq/4330236/dy/20200101">
+																								<span>22:50 PM</span><br>
+																								<span>101 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Hùng Vương</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/029/seq/4298744/dy/20200101">
+																								<span>17:50 PM</span><br>
+																								<span>125 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/029/seq/4329353/dy/20200101">
+																								<span>19:20 PM</span><br>
+																								<span>166 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																		<dt class="tab last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Xuân Khánh</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/036/seq/4328460/dy/20200101">
+																								<span>17:00 PM</span><br>
+																								<span>116 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/036/seq/4328012/dy/20200101">
+																								<span>17:30 PM</span><br>
+																								<span>94 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/036/seq/4270162/dy/20200101">
+																								<span>19:30 PM</span><br>
+																								<span>84 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/036/seq/4327998/dy/20200101">
+																								<span>21:40 PM</span><br>
+																								<span>91 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Đồng Nai</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																		<li class="last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Coopmart Biên Hòa</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/003/seq/4329250/dy/20200101">
+																								<span>17:10 PM</span><br>
+																								<span>100 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/003/seq/4310161/dy/20200101">
+																								<span>20:20 PM</span><br>
+																								<span>82 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																		<dt class="tab last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Coopmart Biên Hòa</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/003/seq/4329251/dy/20200101">
+																								<span>18:10 PM</span><br>
+																								<span>91 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/003/seq/4298297/dy/20200101">
+																								<span>19:10 PM</span><br>
+																								<span>116 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Big C Đồng Nai</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/019/seq/4276502/dy/20200101">
+																								<span>17:30 PM</span><br>
+																								<span>115 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/019/seq/4331206/dy/20200101">
+																								<span>20:20 PM</span><br>
+																								<span>76 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Hải Phòng</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																		<li class="last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Hải Phòng</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/077/seq/4330263/dy/20200101">
+																								<span>17:50 PM</span><br>
+																								<span>86 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/077/seq/4292203/dy/20200101">
+																								<span>19:30 PM</span><br>
+																								<span>50 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/077/seq/4299285/dy/20200101">
+																								<span>20:30 PM</span><br>
+																								<span>89 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																		<dt class="tab last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Thùy Dương Plaza</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/002/seq/4322302/dy/20200101">
+																								<span>18:15 PM</span><br>
+																								<span>126 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Quảng Ninh</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Móng Cái </h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/091/seq/4330885/dy/20200101">
+																								<span>17:15 PM</span><br>
+																								<span>144 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Cẩm Phả</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/095/seq/4329293/dy/20200101">
+																								<span>17:55 PM</span><br>
+																								<span>134 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/095/seq/4285629/dy/20200101">
+																								<span>20:05 PM</span><br>
+																								<span>107 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Hạ Long</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/020/seq/4329274/dy/20200101">
+																								<span>18:30 PM</span><br>
+																								<span>144 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/020/seq/4330635/dy/20200101">
+																								<span>21:20 PM</span><br>
+																								<span>235 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Bà Rịa-Vũng Tàu</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																		<li class="last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Lam Sơn Square</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/014/seq/4329436/dy/20200101">
+																								<span>18:00 PM</span><br>
+																								<span>114 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/014/seq/4331207/dy/20200101">
+																								<span>19:20 PM</span><br>
+																								<span>116 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/014/seq/4331222/dy/20200101">
+																								<span>21:00 PM</span><br>
+																								<span>72 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Lapen Center Vũng Tàu</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/065/seq/4330339/dy/20200101">
+																								<span>21:10 PM</span><br>
+																								<span>61 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/065/seq/4331229/dy/20200101">
+																								<span>22:10 PM</span><br>
+																								<span>171 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																		<dt class="tab last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Lapen Center Vũng Tàu</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/065/seq/4286584/dy/20200101">
+																								<span>19:10 PM</span><br>
+																								<span>48 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Bình Định</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Kim Cúc Plaza</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/015/seq/4324823/dy/20200101">
+																								<span>17:20 PM</span><br>
+																								<span>83 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Bình Dương</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																		<li class="last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Bình Dương Square</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/016/seq/4328473/dy/20200101">
+																								<span>17:40 PM</span><br>
+																								<span>69 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Empire</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/058/seq/4331187/dy/20200101">
+																								<span>17:40 PM</span><br>
+																								<span>142 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/058/seq/4331201/dy/20200101">
+																								<span>20:20 PM</span><br>
+																								<span>184 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																		<dt class="tab last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Aeon Canary</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/017/seq/4330817/dy/20200101">
+																								<span>17:25 PM</span><br>
+																								<span>110 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Đắk Lắk</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																		<li class="last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Buôn Mê Thuột</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/026/seq/4330692/dy/20200101">
+																								<span>20:20 PM</span><br>
+																								<span>141 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																		<dt class="tab last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Buôn Mê Thuột</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/026/seq/4307099/dy/20200101">
+																								<span>17:10 PM</span><br>
+																								<span>93 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Trà Vinh</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Trà Vinh</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/039/seq/4289612/dy/20200101">
+																								<span>18:20 PM</span><br>
+																								<span>61 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Vĩnh Long</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Vĩnh Long</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/043/seq/4329189/dy/20200101">
+																								<span>17:30 PM</span><br>
+																								<span>111 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Kiên Giang</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Rạch Giá</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/042/seq/4328499/dy/20200101">
+																								<span>18:20 PM</span><br>
+																								<span>67 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/042/seq/4328500/dy/20200101">
+																								<span>20:30 PM</span><br>
+																								<span>67 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Hậu Giang</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Vị Thanh</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/045/seq/4328471/dy/20200101">
+																								<span>17:20 PM</span><br>
+																								<span>89 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Hà Tĩnh</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Hà Tĩnh</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/047/seq/4296675/dy/20200101">
+																								<span>17:45 PM</span><br>
+																								<span>242 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Phú Yên</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Phú Yên</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/051/seq/4298388/dy/20200101">
+																								<span>17:15 PM</span><br>
+																								<span>97 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Đồng Tháp</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Cao Lãnh</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/092/seq/4295545/dy/20200101">
+																								<span>18:30 PM</span><br>
+																								<span>46 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Khánh Hòa</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Big C Nha Trang</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/072/seq/4291881/dy/20200101">
+																								<span>19:00 PM</span><br>
+																								<span>44 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Kon Tum</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Kon Tum</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/096/seq/4293030/dy/20200101">
+																								<span>18:35 PM</span><br>
+																								<span>105 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Lạng Sơn</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																		<li class="last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Lạng Sơn</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/067/seq/4330344/dy/20200101">
+																								<span>18:30 PM</span><br>
+																								<span>100 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																		<dt class="tab last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Lạng Sơn</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/067/seq/4289648/dy/20200101">
+																								<span>19:30 PM</span><br>
+																								<span>69 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Nghệ An</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																		<li class="last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vinh Centre</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/086/seq/4330314/dy/20200101">
+																								<span>18:10 PM</span><br>
+																								<span>105 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/086/seq/4330316/dy/20200101">
+																								<span>21:30 PM</span><br>
+																								<span>79 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																		<dt class="tab last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vinh Centre</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/086/seq/4281215/dy/20200101">
+																								<span>17:20 PM</span><br>
+																								<span>77 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/086/seq/4292262/dy/20200101">
+																								<span>19:30 PM</span><br>
+																								<span>109 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Sóc Trăng</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Sóc Trăng</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/097/seq/4297443/dy/20200101">
+																								<span>18:00 PM</span><br>
+																								<span>136 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Sơn La</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																		<li class="last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Sơn La</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/062/seq/4330253/dy/20200101">
+																								<span>19:00 PM</span><br>
+																								<span>83 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																		<dt class="tab last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Sơn La</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/062/seq/4329452/dy/20200101">
+																								<span>16:55 PM</span><br>
+																								<span>71 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Tây Ninh</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Tây Ninh</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/068/seq/4329392/dy/20200101">
+																								<span>17:50 PM</span><br>
+																								<span>98 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/068/seq/4298940/dy/20200101">
+																								<span>19:00 PM</span><br>
+																								<span>42 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab">
+																<span>Thái Nguyên</span>
+															</dt>
+															<dd class="tab-container">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="last current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab last current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container last current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV Vincom Thái Nguyên</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/061/seq/4319425/dy/20200101">
+																								<span>19:45 PM</span><br>
+																								<span>78 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/061/seq/4329464/dy/20200101">
+																								<span>21:05 PM</span><br>
+																								<span>86 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+															<dt class="tab last">
+																<span>Tiền Giang</span>
+															</dt>
+															<dd class="tab-container last">
+																<div class="product-collateral toggle-content tabs tabs-cgv-movie-type">
+																	<ul class="toggle-tabs">
+																		<li class="current">
+																			<span>2D Phụ Đề Việt</span>
+																		</li>
+																		<li class="last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</li>
+																	</ul>
+																	<dl id="collateral-tabs" class="collateral-tabs">
+																		<dt class="tab current">
+																			<span>2D Phụ Đề Việt</span>
+																		</dt>
+																		<dd class="tab-container current">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV GO! Mỹ Tho</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/074/seq/4331165/dy/20200101">
+																								<span>18:00 PM</span><br>
+																								<span>86 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																		<dt class="tab last">
+																			<span>2D Lồng Tiếng Việt</span>
+																		</dt>
+																		<dd class="tab-container last">
+																			<div class="tab-content showtimes">
+																				<div class="site sitecgv">
+																					<div class="site">
+																						<h3>CGV GO! Mỹ Tho</h3>
+																					</div>
+						
+																					<div class="cinema 2d">
+																						<h4>Rạp 2D</h4>
+																					</div>
+						
+																					<ul class="products-grid-movie tab-showtime">
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/074/seq/4298636/dy/20200101">
+																								<span>17:40 PM</span><br>
+																								<span>34 ghế trống</span>
+																							</a>
+																						</li>
+																						<li class="item">
+																							<a
+																								href="https://www.cgv.vn/default/cinemas/booking/tickets/site/074/seq/4327899/dy/20200101">
+																								<span>19:15 PM</span><br>
+																								<span>83 ghế trống</span>
+																							</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</dd>
+																	</dl>
+																</div>
+															</dd>
+														</dl>
+													</div>
+												</div>
+											</dd>
+											<dt class="tab">
+												<div class="day" onclick="getSelectDay(19022000, '20200102');">
+													<span>01</span><em>Thu</em><strong>02</strong></div>
+											</dt>
+											<dd class="tab-container">
+												<div class="tab-content showtimes"></div>
+											</dd>
+											<dt class="tab">
+												<div class="day" onclick="getSelectDay(19022000, '20200103');">
+													<span>01</span><em>Fri</em><strong>03</strong></div>
+											</dt>
+											<dd class="tab-container">
+												<div class="tab-content showtimes"></div>
+											</dd>
+											<dt class="tab">
+												<div class="day" onclick="getSelectDay(19022000, '20200104');">
+													<span>01</span><em>Sat</em><strong>04</strong></div>
+											</dt>
+											<dd class="tab-container">
+												<div class="tab-content showtimes"></div>
+											</dd>
+											<dt class="tab">
+												<div class="day" onclick="getSelectDay(19022000, '20200105');">
+													<span>01</span><em>Sun</em><strong>05</strong></div>
+											</dt>
+											<dd class="tab-container">
+												<div class="tab-content showtimes"></div>
+											</dd>
+											<dt class="tab">
+												<div class="day" onclick="getSelectDay(19022000, '20200106');">
+													<span>01</span><em>Mon</em><strong>06</strong></div>
+											</dt>
+											<dd class="tab-container">
+												<div class="tab-content showtimes"></div>
+											</dd>
+											<dt class="tab">
+												<div class="day" onclick="getSelectDay(19022000, '20200107');">
+													<span>01</span><em>Tue</em><strong>07</strong></div>
+											</dt>
+											<dd class="tab-container">
+												<div class="tab-content showtimes"></div>
+											</dd>
+											<dt class="tab">
+												<div class="day" onclick="getSelectDay(19022000, '20200108');">
+													<span>01</span><em>Wed</em><strong>08</strong></div>
+											</dt>
+											<dd class="tab-container">
+												<div class="tab-content showtimes"></div>
+											</dd>
+											<dt class="tab">
+												<div class="day" onclick="getSelectDay(19022000, '20200109');">
+													<span>01</span><em>Thu</em><strong>09</strong></div>
+											</dt>
+											<dd class="tab-container">
+												<div class="tab-content showtimes"></div>
+											</dd>
+											<dt class="tab">
+												<div class="day" onclick="getSelectDay(19022000, '20200110');">
+													<span>01</span><em>Fri</em><strong>10</strong></div>
+											</dt>
+											<dd class="tab-container">
+												<div class="tab-content showtimes"></div>
+											</dd>
+											<dt class="tab">
+												<div class="day" onclick="getSelectDay(19022000, '20200111');">
+													<span>01</span><em>Sat</em><strong>11</strong></div>
+											</dt>
+											<dd class="tab-container">
+												<div class="tab-content showtimes"></div>
+											</dd>
+											<dt class="tab">
+												<div class="day" onclick="getSelectDay(19022000, '20200112');">
+													<span>01</span><em>Sun</em><strong>12</strong></div>
+											</dt>
+											<dd class="tab-container">
+												<div class="tab-content showtimes"></div>
+											</dd>
+											<dt class="tab">
+												<div class="day" onclick="getSelectDay(19022000, '20200113');">
+													<span>01</span><em>Mon</em><strong>13</strong></div>
+											</dt>
+											<dd class="tab-container">
+												<div class="tab-content showtimes"></div>
+											</dd>
+											<dt class="tab last">
+												<div class="day" onclick="getSelectDay(19022000, '20200114');">
+													<span>01</span><em>Tue</em><strong>14</strong></div>
+											</dt>
+											<dd class="tab-container last">
+												<div class="tab-content showtimes"></div>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+							<div id="cboxTitle" style="float: left; display: block;"></div>
+							<div id="cboxCurrent" style="float: left; display: none;"></div><button type="button" id="cboxPrevious"
+								style="display: none;"></button><button type="button" id="cboxNext" style="display: none;"></button><button
+								id="cboxSlideshow" style="display: none;"></button>
+							<div id="cboxLoadingOverlay" style="float: left; display: none;"></div>
+							<div id="cboxLoadingGraphic" style="float: left; display: none;"></div>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END QUICKVIEW PRODUCT -->
+	</div>
+	<!-- //Main wrapper -->
+
+	<!-- JS Files -->
+	<script src="js/vendor/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/active.js"></script>
+
+</body>
+
+</html>
